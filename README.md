@@ -16,7 +16,7 @@ All the python files are in jupyter notebook.
                 can run it to directly call the functions implemented in src/ jupyter
                 notebooks
 
-## To run this paper implementation (right away):
+## Run this implementation (right away):
 - after cloning the repository
 - go to testscripts/ folder
 - open testscript_std.ipynb jupyter notebook
@@ -24,5 +24,12 @@ All the python files are in jupyter notebook.
 Or you could run each cell one by one to better understand the overall
 code layout.
 
-## To look at paper implementation
+## Paper implementation
 - Go through src/finalcode.ipynb
+
+## Results
+- We note (according to paper) that for recommendation datasets,
+$$ if p > 1/n $$
+where p is sparsity and n is dimension of the matrix
+then Mean Square Error of the algorithm in paper is bounded by
+$$ MSE = O((pn)** (-1/5)) $$
