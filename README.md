@@ -1,4 +1,4 @@
-# thyFriendMyFriend
+# Iterative Collaborative Filtering for Sparse Matrix Estimation
 Implementation of the paper titled "Thy Friend is My Friend: Iterative Collaborative Filtering for Sparse Matrix Estimation"
 
 All the python files are in jupyter notebook.
@@ -22,7 +22,10 @@ code layout.
 
 ## Results
 - We note (according to paper) that for recommendation datasets,
-if $p > 1/n$
+
+if p > 1/n
+
 where p is sparsity and n is dimension of the matrix
 then Mean Square Error of the algorithm in paper is bounded by
-$$ MSE = O((pn)** (-1/5)) $$
+
+MSE = O((pn)** (-1/5))
